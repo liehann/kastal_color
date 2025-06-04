@@ -1,0 +1,22 @@
+{
+  "name": "kastal",
+  "displayName": "Kastal",
+  "description": "Soothing muted pastels on a dark background.",
+  "publisher": "liehann",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kastal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kastal-theme.json"
+      }
+    ]
+  }
+}
